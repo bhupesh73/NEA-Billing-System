@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #f1f1f1;
+    overflow: hidden;
+    margin:0px;
+  }
+
+  .navbar-logo {
+    float: left;
+    padding: 14px 16px;
+  }
+
+  .navbar-profile {
+    float: right;
+    padding: 14px 16px;
+    cursor: pointer;
+  }
+
+  /* CSS for dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .center td{
+    text-align: left;
+    width: auto;
+}
+
+.center{
+    margin:auto;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align:center;
+}
+
+.navbar-profile {
+    text-align:auto;
+}
+
+h2{
+  text-align:center;
+}
+
+#payform{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
